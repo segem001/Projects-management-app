@@ -1,6 +1,7 @@
 # Projects-management-app
 # Author
 
+[Kiprono Dominic Segem](https://github.com/segem001) 
 ##### Install Dependencies  
  ```bash 
  pip install -r requirements.txt 
