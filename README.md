@@ -4,6 +4,7 @@
 
 # Description
 A website that allows users to post projects and get reviews and ratings on their projects
+
 [Kiprono Dominic Segem](https://github.com/segem001) 
 ##### Install Dependencies  
  ```bash 
