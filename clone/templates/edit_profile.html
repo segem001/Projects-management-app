@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+
+{% block content %}
+
+
+<div class="container m-5">
+  <div class="mx-auto">
+    <div class="text-center w-75 rounded border border-primary bg-white p-3 mx-auto">
+      <div class="logo-header">
+        <img src="https://builtbytophat.com/wp-content/uploads/2016/03/awwwards-website-logo.png" alt="" width="200">
+        <br>
+      </div>
+      <form action="{%url 'edit-profile'%}" method="post" enctype="multipart/form-data">
+
+        {% csrf_token%}
+        {% bootstrap_form form %}
+        <div class="form-group text-center">
+          <input type="submit" class="btn btn-success btn-lg" value="Save Changes">
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+  {% endblock %}
