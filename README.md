@@ -1,6 +1,9 @@
 # Projects-management-app
 # Author
 
+
+# Description  
+
 [Kiprono Dominic Segem](https://github.com/segem001) 
 ##### Install Dependencies  
  ```bash 
