@@ -1,6 +1,10 @@
 # Projects-management-app
 # Author
 
+##### Install Dependencies  
+ ```bash 
+ pip install -r requirements.txt 
+```  
 ##### Run the application  
  ```bash 
  python manage.py runserver 
