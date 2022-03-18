@@ -6,6 +6,9 @@
 A website that allows users to post projects and get reviews and ratings on their projects
 
 [Kiprono Dominic Segem](https://github.com/segem001) 
+##  Live Link  
+ Click [https://allansegemmanageapp.herokuapp.com/]()  to visit the site
+  
 ##### Install Dependencies  
  ```bash 
  pip install -r requirements.txt 
